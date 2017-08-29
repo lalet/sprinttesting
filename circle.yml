@@ -1,0 +1,7 @@
+dependencies:
+  override:
+    - pip install pytest
+
+test:
+  override:
+    - pytest test.py
