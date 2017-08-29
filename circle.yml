@@ -14,8 +14,7 @@ test:
     - docker run -ti --rm=false laletscaria/sprinttest 6
 
 
-laletscaria/sprinttest:latest
-yment:
+deployment:
   production:
     tag: /.*/
     commands:
